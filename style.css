@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    transition: all,0.8s;
+}
+
+.container{
+    /* color: white; */
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 1000px;
+}
+.time{
+    margin-top: 20px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid green;
+}
+.alltime{
+    font-size: 150px;
+    color: white;
+    /* border: 2px solid red; */
+    padding: 10px;
+    background-color: rgb(8, 139, 148);
+    border-radius: 20px;
+    /* margin-top: 20px; */
+}
+
+.text{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.buttons{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.btn{
+    background-color: rgb(31, 17, 17);
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    width: 150px;
+    font-size: 30px;
+    /* border: 1px solid white; */
+}
+#start{
+    background-color: green;
+    /* color: black; */
+}
+#stop{
+    background-color:red;
+    /* color: black; */
+}
+#reset{
+    background-color: yellow;
+    color: black;
+}
+#reset:hover{
+    background-color: rgb(16, 119, 119);
+    color: white;
+}
+
+.btn:hover{
+    color: white;
+}
